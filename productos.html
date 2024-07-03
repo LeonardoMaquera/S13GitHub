@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Agregar iconos -->
+    <!-- Link -->
+    <script src="https://kit.fontawesome.com/a8031a7195.js" crossorigin="anonymous"></script>
+    <!-- link -->
+    <link rel="stylesheet" href="./css/main.css">;
+    <!-- Código js -->
+    <!-- Embebido -->
+     <script type="text/javascript">
+        //funciones
+        function Welcome() {
+            alert("Actual semana: 14")
+        }
+      </script>
+    <!-- Invocar js -->
+       <script src="./js/main.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <h1>BioSalud &nbsp;&copy;</h1>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </header>
+    <!-- Crear un menú de navegación -->
+    <nav>
+        <a href="index.html">Inicio</a> &nbsp;
+        <a href="nosotros.html">Nosotros</a> &nbsp;
+        <a href="productos.html">Productos</a> &nbsp;
+        <a href="contactos.html">Contacto</a> &nbsp;
+        <a href="login.html">Intranet</a> &nbsp;
+    </nav>
+
+    <!-- CONTENIDO DE LA PAGINA -->
+    <br><br>
+    <!-- Crear tabla -->
+     <!-- PREFIJO: TABLET: M, MOVIL:S -->
+     <!-- 1ra fila -->
+     <div class="fila">
+        <div class="col-10 col-m-8 col-s-6" style="background-color: aqua;">
+            Botones
+            <!-- Embebido -->
+            <button type="button" onclick="Welcome();">Welcome</button>
+            <!-- Externa -->
+             <button type="button"onclick="SeeYou();">See you</button>
+             <!-- En línea -->
+            <button type="button" onclick="alert('Este año culminas... con fe');">Bye</button>
+        </div>
+        <div class="col-2 col-m-4 col-s-6" style="background-color: peru;">
+            Lorem
+        </div>
+     <!-- 2da fila -->
+     </div>
+     <div class="fila">
+        <div class="col-4 col-m-4 col-s-12" style="background-color: pink;">
+            Welcome
+        </div>
+        <div class="col-4 col-m-4 col-s-12" style="background-color: green;">
+            Hello
+        </div>
+        <div class="col-4 col-m-4 col-s-12" style="background-color: darkblue;">
+            See you
+        </div>
+        <!-- 3ra fila -->
+         <div class="col-12 col-m-4 col-s-12" style="background-color: brown;">
+            Números:
+            <br><br>
+            <label for="NumA">Número A:</label>
+            <input type="number" name="" id="NumA"><br><br>
+            <label for="NumB">Número B:</label>
+            <input type="number" name="" id="NumB"><br><br>
+            <button type="button" onclick="Sumar(
+                document.getElementById('NumA').value,
+                document.getElementById('NumB').value
+            )">Sumar</button>
+            <button type="button" onclick="Multiplicar(
+                document.getElementById('NumA').value,
+                document.getElementById('NumB').value
+            )">Multiplicar</button>
+            <p>Resultado &nbsp; <span style="border: 5px solid rgb(255, 252, 254);" id="Resultado"></span></p>
+        </div>
+     </div>
+     <br><br>
+    <!-- Pie de pagina -->
+    <footer>
+        <table border="1">
+            <tr>
+                <td>Empresa BioSalud &nbsp;&copy;</td>
+                <td>Dirección: Sjl Av. Wiesse <br> N° Celular: 948452112 </td>
+            </tr>
+        </table>
+        <h3>Autor: a.leonardohuaqui@seoane.edu.pe</h3>
+    </footer>
+
+
+</body>
+
+</html>

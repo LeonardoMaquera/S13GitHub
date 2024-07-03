@@ -1,0 +1,74 @@
+/* selector de clase */
+.titulo{
+    background-color: rgb(240, 106, 16);
+    color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    background-color: moccasin;
+    color: crimson;
+    text-decoration: none;
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+/* Seudoclase */
+a:hover{
+    background-color: crimson;
+    color: moccasin;
+    padding: 7px 15px; 
+    transition-duration: 1000ms;
+}
+
+.encabezado{
+    background-color: rgb(240, 106, 16);
+    color:white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: solid crimson 5px;
+    border-radius: 10px;
+    background-color: moccasin;
+    padding: 40px;
+}
+header {
+    margin-bottom: 15px;
+  }
+
+/* SELECTOR DE  ATRIBUTOS */
+
+input[type="text"],input[type="number"]{
+    width: 95%;
+}
+
+/* Selector de id */
+#texto{
+    background-color: rgba(241, 206, 144, 0.966);
+    resize: none;
+}
+
+.dat{
+    font-style: italic;
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.chc:checked {
+        accent-color: crimson;
+        color: moccasin;
+}
